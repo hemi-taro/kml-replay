@@ -1,4 +1,4 @@
-const CACHE_NAME = 'kml-replay-v0.1.0-1';
+const CACHE_NAME = 'kml-replay-v0.1.1-1';
 const BASE_PATH = new URL(self.registration.scope).pathname;
 const APP_SHELL = [
   BASE_PATH,
