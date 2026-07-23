@@ -1,10 +1,9 @@
-const CACHE_NAME = 'kml-replay-v0.1.1-1';
+const CACHE_NAME = 'kml-replay-v0.1.2-1';
 const BASE_PATH = new URL(self.registration.scope).pathname;
 const APP_SHELL = [
   BASE_PATH,
   `${BASE_PATH}manifest.webmanifest`,
   `${BASE_PATH}icons/icon.svg`,
-  `${BASE_PATH}assets/coastline/coastlinePaths.json`,
 ];
 
 self.addEventListener('install', (event) => {
